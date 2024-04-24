@@ -1,7 +1,73 @@
 
 
-body {
-    background: linear-gradient(to right, #00AAFF, #00FF6C)
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 200%;
+    overflow-x: hidden;
+
+}
+
+/* SCROLL TRACKER TEST CSS            */
+
+.scroll-tracker {
+  width: 0%;
+  height: 1rem;
+  inset: 0 0 auto;
+  background-color: rgb(165, 45, 65);
+  position: fixed;
+  transform-origin: 0% 50%;
+  transition: width 0.1s;
 }
 
 
+
+/*      EYE EYE EYEYEY EYEYEYE     EYEYEYE EYEYEYE EYEYEYYEYEY    */
+
+#eye-animation {
+    position: relative;
+    height: 200vh;
+  }
+  
+  .eye-part {
+    position: absolute;
+  }
+
+  #part1 {
+    top: 36%;
+    left: 5%; 
+    z-index: 4;
+  }
+  
+  #part2 {
+    top: 39%;
+    left: 15%;
+    z-index: 3;
+  }
+  
+  #part3 {
+    top: 35%;
+    left: 25%;
+    z-index: 1;
+  }
+  
+  #part4 {
+    top: 36.4%;
+    left: 35%;
+    z-index:5;
+    width: 68px;
+    height: 161.5px;
+  }
+  
+  #part5 {
+    top: 35%;
+    left: 45%; 
+    z-index: 2;
+  }
+  
+  #part6 {
+    top: 30%;
+    left: 55%; 
+    z-index: 0;
+  }
+ 
